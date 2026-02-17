@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    height: 100vh;
+    background: linear-gradient(135deg, #1df619, #b1ea37);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 100%;
+    max-width: 420px;
+    padding: 20px;
+}
+
+.card {
+    background: #ffffff;
+    padding: 30px 25px;
+    border-radius: 18px;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
+    text-align: center;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.subtitle {
+    font-size: 14px;
+    color: #777;
+    margin-bottom: 25px;
+}
+
+.option {
+    display: flex;
+    align-items: center;
+    background: #f5f7fa;
+    border-radius: 12px;
+    padding: 12px 15px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    transition: 0.1s ease;
+    border: 1px solid transparent;
+}
+
+.option:hover {
+    background: rgb(43, 232, 43);
+    border: 1px solid black;
+}
+.option:active {
+    background:white
+}
+.option input {
+    margin-right: 12px;
+    transform: scale(1.2);
+}
+
+.option span {
+    font-size: 16px;
+    color: #333;
+    font-weight: 500;
+}
+
+.vote-btn {
+    width: 100%;
+    padding: 12px;
+    margin-top: 15px;
+    border: none;
+    border-radius: 12px;
+    background: #1bf917;
+    color: black;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.vote-btn:hover {
+    background: #2bb623;
+}
+
+.vote-btn:active {
+    background: #1bf917;
+}
+
+.results-link {
+    margin-top: 15px;
+}
+
+.results-link a {
+    text-decoration: none;
+    font-size: 14px;
+    color: #1bf917;
+    font-weight: bold;
+}
+
+.results-link a:hover {
+    text-decoration: underline;
+}
